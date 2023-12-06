@@ -1,11 +1,11 @@
 import { Component } from "react";
-import CSSModule from "./09_ComponentStyling/CSSModule";
+import StyledComponent from "./09_ComponentStyling/StyledComponent";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <CSSModule />
+        <StyledComponent />
       </div>
     );
   }
