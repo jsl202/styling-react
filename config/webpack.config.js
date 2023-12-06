@@ -519,7 +519,7 @@ module.exports = function (webpackEnv) {
                     sassOptions: {
                       includePaths: [paths.appSrc + "/styles"],
                     },
-                    addtionalData: "@imoprt 'utils';"
+                    additionalData: "@imoprt 'utils';"
                   },
                 }),
               // Don't consider CSS imports dead code even if the
